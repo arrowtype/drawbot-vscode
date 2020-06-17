@@ -22,7 +22,7 @@ newDrawing() # required by drawbot module
 # currentDir = sys.argv[0]
 currentDir = os.path.dirname(os.path.abspath(__file__))
 print(currentDir)
-
+ 
 # ---------------------------------------------------------
 # CONFIGURATION -------------------------------------------
 
@@ -31,7 +31,7 @@ save = True
 outputDir = "exports"
 autoOpen = True
 
-fontFam = f"{currentDir}/name_sans-variable.trial.ttf" # Update as needed. Easiest when font file is in same directory.
+fontFam = f"{currentDir}/fonts/name_sans-variable.trial.ttf" # Update as needed. Easiest when font file is in same directory.
 
 frames = 10
 fps = 3
