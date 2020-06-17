@@ -31,7 +31,7 @@ save = True
 outputDir = "exports"
 autoOpen = True
 
-fontFam = f"{currentDir}/Recursive_VF_1.031.ttf" # Update as needed. Easiest when font file is in same directory.
+fontFam = f"{currentDir}/name_sans-variable.trial.ttf" # Update as needed. Easiest when font file is in same directory.
 
 frames = 10
 fps = 3
@@ -69,14 +69,14 @@ for frame in range(frames):
 	
 	font(fontFam, computeFontSizePoints(24)) # set a font and font size
 	# draw text
-	text("hi", (x, H/2))
+	text("Name", (x, H/2))
 
 endDrawing() # advised by drawbot docs
 
 if save:
 	import datetime
 
-	now = datetime.datetime.now().strftime("%Y_%m_%d-%H_%M") # -%H_%M_%S
+	now = datetime.datetime.now().strftime("%Y_%m_%d-%H_%M") # use "-%H_%M_%S" for more frequent versions
 
 	if not os.path.exists(f"{currentDir}/{outputDir}"):
 		os.makedirs(f"{currentDir}/{outputDir}")
