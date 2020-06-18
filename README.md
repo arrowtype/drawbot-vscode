@@ -1,6 +1,4 @@
-# Using Drawbot in an external editor
-
-# Using DrawBot in VS Code
+# Using DrawBot in VS Code (or any external code editor)
 
 This post is made to accompany a talk at the 2020 Typographics TypeLab, but aims to be useful as a standalone resource.
 
