@@ -25,11 +25,12 @@ For the purpose of using DrawBot in VS Code, macOS is still required.
 A good text editor is a massive software project (VS Code is backed by Microsoft & a huge open-source community), and the DrawBot maintainers have wisely focused on making a graphics library and keeping the DrawBot app as a simple product.
 
 - Comfort
-  - DrawBot doesn’t use usual code syntax highlighting theme, and it’s not super easy to configure.
+  - DrawBot doesn’t use usual code syntax highlighting theme, and it’s tedious to configure colors.
+  - VS Code has extensions that help readability, like [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
   - The DrawBot app can be tricky to update: automatic updates don’t work for me (this could be a macOS security thing). Because I can only update by downloading a new installation from the website, my preferences get erased each time. Goodbye, theme edits. :( By contrast, VS Code just updates without me doing anything, leaving my settings intact.
 
 - Speed
-  - Familiar shortcuts
+  - Familiar shortcuts (I spend a lot of time in VS Code)
   - Multi-selection & editing (e.g. for variable renaming)
   - Multi-line editing
   - Moving lines up & down with key commands
@@ -108,6 +109,13 @@ Search `Python: Run Python File in Terminal`. Click the `+` icon, and enter **Co
 - You will occassionally hit a limit on macOS preview where it will stop opening new files. At this point, you will have to click on one of the Preview windows, and use the shortcut **Option Command W** to close all open windows.
 
 ------------------------------------------------------------------
+
+## VS Code links
+
+- My code theme: https://github.com/arrowtype/recursive-theme
+- [VS Code Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ## Fonts used
 
