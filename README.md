@@ -119,9 +119,9 @@ Search `Python: Run Python File in Terminal`. Click the `+` icon, and enter **Co
 
 ## Fonts used
 
-This uses Recursive VF 1.031, available as an OFL on GitHub ([permalink](https://github.com/arrowtype/recursive/blob/006828dd941878bf0819a97c9d6286f24972bb16/fonts_1.031/Variable_TTF/Recursive_VF_1.031.ttf)).
+This uses Recursive VF 1.053, available as an OFL on GitHub ([permalink](https://github.com/arrowtype/recursive/blob/006828dd941878bf0819a97c9d6286f24972bb16/fonts_1.031/Variable_TTF/Recursive_VF_1.031.ttf)).
 
-This also uses a trial version of Name Sans, available from [Future Fonts](https://www.futurefonts.xyz/arrowtype/name-sans).
+The slide presentation also uses Name Sans, [available from Future Fonts](https://www.futurefonts.xyz/arrowtype/name-sans).
 
 ## Example scripts on GitHub
 
