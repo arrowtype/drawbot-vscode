@@ -106,7 +106,7 @@ Search `Python: Run Python File in Terminal`. Click the `+` icon, and enter **Co
   - If you are making lots of experimental changes and you aren’t worried about saving computer disk space, add `_seconds` to your timestamp and go nuts!
   - If you *are* worried about disk space (e.g. you are exporting large gif files, etc), maybe just go by the `hour`, and change the file name when you actually want to save a specific version. 
 - It’s also useful to version with Git, but that deserves its own workshop
-- You will occassionally hit a limit on macOS preview where it will stop opening new files. At this point, you will have to click on one of the Preview windows, and use the shortcut **Option Command W** to close all open windows.
+- You will occasionally hit a limit on macOS preview where it will stop opening new files. At this point, you will have to click on one of the Preview windows, and use the shortcut **Option Command W** to close all open windows.
 
 ------------------------------------------------------------------
 

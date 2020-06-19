@@ -36,7 +36,7 @@ fontFam = f"{currentDir}/fonts/Recursive_VF_1.053.ttf" # Update as needed. Easie
 frames = 10
 fps = 3
 frameRate = 1/fps # only applicable to mp4 and gif; can be buggy
-fileFormat = "pdf" # pdf, gif, or mp4
+fileFormat = "mp4" # pdf, gif, or mp4
 
 pageSize = 3.5 # inches
 DPI = 72 # dots per inch
@@ -66,10 +66,13 @@ for frame in range(frames):
 
 	t = frame / frames
 	x = interpolate(0, W*0.9, t)
+
+	rect(0,0,W,H)
 	
 	font(fontFam, computeFontSizePoints(24)) # set a font and font size
 	# draw text
-	text("Name", (x, H/2))
+	fill(1,1,1)
+	text("@", (x, H/2))
 
 endDrawing() # advised by drawbot docs
 
@@ -88,4 +91,9 @@ if save:
 	saveImage(path)
 
 	if autoOpen:
-		os.system(f"open --background -a Preview {path}")
+		if fileFormat == "pdf":
+			os.system(f"open --background -a Preview {path}")
+		if fileFormat == "gif":
+			os.system(f"open --background -a Safari {path}")
+		if fileFormat == "mp4":
+			os.system(f"open --background -a QuickTime\ Player {path}")
